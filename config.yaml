@@ -1,0 +1,19 @@
+http:
+  addr: 0.0.0.0:8083
+  default_secretKey: "welcome. winn.zhai"
+
+log:
+  level:  "debug"
+  filename: "web_app.log"
+  max_size: 200
+  max_age: 30
+  max_backet: 7
+
+database:
+  hostname: spot-prod-ops-rds-cluster.cluster-czuz3nvq1toc.ap-southeast-1.rds.amazonaws.com
+  dbtype: mysql
+  port: 3306
+  username: send_alert_user
+  password: EeseTh0a_hyap4Too
+  base: send_alert
+  ping_attempts: 3
