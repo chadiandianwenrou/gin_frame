@@ -14,7 +14,8 @@ func main() {
 	if err != nil {
 		return
 	}
-
+	
+	//初始化日志
 	err = global.InitLogger(config.Conf)
 	if err != nil {
 		fmt.Printf("init logger failed, err:%v\n", err)
