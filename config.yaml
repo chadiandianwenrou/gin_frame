@@ -10,10 +10,10 @@ log:
   max_backet: 7
 
 database:
-  hostname: spot-prod-ops-rds-cluster.cluster-czuz3nvq1toc.ap-southeast-1.rds.amazonaws.com
+  hostname:  xxxx
   dbtype: mysql
   port: 3306
-  username: send_alert_user
-  password: EeseTh0a_hyap4Too
+  username: xxx
+  password:  xxx
   base: send_alert
   ping_attempts: 3
